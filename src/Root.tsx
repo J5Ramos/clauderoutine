@@ -1,22 +1,30 @@
+import React from 'react';
 import {Composition} from 'remotion';
-import {
-  BASE_DURATIONS,
-  FPS,
-  WorkshopReel,
-  calculateReelMetadata,
-} from './WorkshopReel';
+import {FPS} from './Reel';
+import {EstudiaReel} from './WorkshopReel';
+import {EducarReel} from './EducarReel';
+
+const REELS = [
+  {id: 'WorkshopReel', reel: EstudiaReel},
+  {id: 'EducarReel', reel: EducarReel},
+];
 
 export const RemotionRoot: React.FC = () => {
   return (
-    <Composition
-      id="WorkshopReel"
-      component={WorkshopReel}
-      durationInFrames={BASE_DURATIONS.reduce((a, b) => a + b, 0)}
-      fps={FPS}
-      width={1080}
-      height={1920}
-      defaultProps={{withAudio: true, sceneDurations: BASE_DURATIONS}}
-      calculateMetadata={calculateReelMetadata}
-    />
+    <>
+      {REELS.map(({id, reel}) => (
+        <Composition
+          key={id}
+          id={id}
+          component={reel.Component}
+          durationInFrames={reel.baseDurations.reduce((a, b) => a + b, 0)}
+          fps={FPS}
+          width={1080}
+          height={1920}
+          defaultProps={{withAudio: true, sceneDurations: reel.baseDurations}}
+          calculateMetadata={reel.calculateMetadata}
+        />
+      ))}
+    </>
   );
 };

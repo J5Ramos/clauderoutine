@@ -1,4 +1,18 @@
-# Reel – "Estudia inteligente, piensa por ti mismo"
+# Reels de conferencias de Jorge Ramos
+
+Proyecto de [Remotion](https://www.remotion.dev/) con dos reels verticales (1080×1920, 30 fps), cada uno con su propio tema visual:
+
+| Composición | Conferencia | Tema | Render |
+|---|---|---|---|
+| `WorkshopReel` | Estudia inteligente, piensa por ti mismo | Nocturno (neón cian y ámbar) | `renders/estudia-inteligente-reel.mp4` |
+| `EducarReel` | Educar en la era de la Inteligencia Artificial | Papel (coral y verde, serif) | `renders/educar-ia-reel.mp4` |
+
+Los temas están en `src/theme.ts`; el armado común de cada reel (escenas, audio, progreso) en `src/Reel.tsx`.
+
+---
+
+## Reel 1 – "Estudia inteligente, piensa por ti mismo"
+
 
 Reel vertical (1080×1920, 30 fps, ~41 s) hecho con [Remotion](https://www.remotion.dev/) para dar a conocer la conferencia‑workshop de Jorge Ramos. Sin fecha ni precio: es el primer contacto, su objetivo es que una universidad quiera contratarlo.
 
@@ -26,11 +40,12 @@ npm install
 npm run dev            # Remotion Studio para previsualizar y editar
 npm run render         # con voz en off y música -> out/estudia-inteligente-reel.mp4
 npm run render:silent  # versión sin audio
+npx remotion render EducarReel out/educar-ia-reel.mp4 --props='{"withAudio":false}'
 ```
 
 ## Audio
 
-`npm run render` espera estos archivos en `public/audio/`:
+`npm run render` espera estos archivos en `public/audio/estudia/` (y `public/audio/educar/` para el segundo reel):
 
 - `vo-1.mp3` … `vo-8.mp3`: una toma de voz en off por escena (español de México).
 - `music.mp3`: música de fondo instrumental (se mezcla al 16 % y se desvanece al final).
