@@ -136,7 +136,8 @@ const BENEFITS = [
 export const BenefitsScene: React.FC<{duration: number}> = ({duration}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const step = 26;
+  // Reparte los 6 puntos a lo largo de la escena (que crece con la voz en off).
+  const step = Math.min(45, Math.max(26, Math.floor((duration - 60) / BENEFITS.length)));
   return (
     <Scene duration={duration} style={{alignItems: 'stretch'}}>
       <Pop delay={0}>
