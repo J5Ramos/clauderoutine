@@ -1,0 +1,25 @@
+{
+  "estudia": {
+    "vo-1.mp3": "https://pikaso.cdnpk.net/private/production/5696116621/audio.mp3?token=exp=1791849600~hmac=193cc61749bd1315caba9d55f8a339de7c3d09b650ddaba49393c93a3d79a150",
+    "vo-2.mp3": "https://pikaso.cdnpk.net/private/production/5696116683/audio.mp3?token=exp=1791849600~hmac=5d1fc2314816257ac64b027b996265f6bdc3868ebbe985d1c226a2ee422e7dc8",
+    "vo-3.mp3": "https://pikaso.cdnpk.net/private/production/5696116731/audio.mp3?token=exp=1791849600~hmac=d2a6d075395b0e14810449e60a647a0cf324572debd9b041c610919d3038c8bf",
+    "vo-4.mp3": "https://pikaso.cdnpk.net/private/production/5696116868/audio.mp3?token=exp=1791849600~hmac=3da79781c15615157e02548cb69f1d859ca382f5da51cec49f719773be6c18a3",
+    "vo-5.mp3": "https://pikaso.cdnpk.net/private/production/5696117018/audio.mp3?token=exp=1791849600~hmac=f55f6129437e2d454cf6f88371dbeddda70d8f67b8d55dcb4080cc0c0b34a8dd",
+    "vo-6.mp3": "https://pikaso.cdnpk.net/private/production/5696117012/audio.mp3?token=exp=1791849600~hmac=4e64652e56eff491a2910354f4217473561b61a728574849211ecc92720a840e",
+    "vo-7.mp3": "https://pikaso.cdnpk.net/private/production/5696117023/audio.mp3?token=exp=1791849600~hmac=cfa16d0b28df7cfc5a31679ac18e61489bd6935f20ad9f200209ecffe6d6d02a",
+    "vo-8.mp3": "https://pikaso.cdnpk.net/private/production/5696117176/audio.mp3?token=exp=1791849600~hmac=fb2d3c79f252644341f8dfd2f9f583d66501e96d486cb1afebedab624e2fa84c",
+    "music.mp3": "https://pikaso.cdnpk.net/private/production/5696117539/a2f367e7-b1e6-446c-9607-6e2398a03bd3.mp3?token=exp=1791849600~hmac=67227dfe5170d4853fc3ca8228d4d3309e7ea7e6052eca6039de0236dbcbd444"
+  },
+  "educar": {
+    "vo-1.mp3": "https://pikaso.cdnpk.net/private/production/5697326942/audio.mp3?token=exp=1792108800~hmac=5ad0cf2da0f0b64efcf44d106146e7b1e483f9dbecee18c34330c6ea4d702dbd",
+    "vo-2.mp3": "https://pikaso.cdnpk.net/private/production/5697326981/audio.mp3?token=exp=1792108800~hmac=e404aa94fbe5d3fdeabea589f8eee147e9b95a04c442d17b25a9053ac0059c13",
+    "vo-3.mp3": "https://pikaso.cdnpk.net/private/production/5697327087/audio.mp3?token=exp=1792108800~hmac=f9a690f727c302e16e8f85163ecd459b5840bac632a4f2586d919312bd8fee12",
+    "vo-4.mp3": "https://pikaso.cdnpk.net/private/production/5697327094/audio.mp3?token=exp=1792108800~hmac=4bcb6c73b232a58022395cb2db7848d0ac2813f0cf7ab6b541a812df3d7790ea",
+    "vo-5.mp3": "https://pikaso.cdnpk.net/private/production/5697327221/audio.mp3?token=exp=1792108800~hmac=8d3405f908252b088e350de441dde51f40adcf2bfe16ebc6972ccbb193a51247",
+    "vo-6.mp3": "https://pikaso.cdnpk.net/private/production/5697327217/audio.mp3?token=exp=1792108800~hmac=a68c9bca432d7ab0b58087e3600a582bf0f706c00d92c2ac99894e6b4d948684",
+    "vo-7.mp3": "https://pikaso.cdnpk.net/private/production/5697327215/audio.mp3?token=exp=1792108800~hmac=4ccc487240a9c6cafe4b0fb580e69c5c99a5d8639f4a3d6acae35aa465593047",
+    "vo-8.mp3": "https://pikaso.cdnpk.net/private/production/5697327226/audio.mp3?token=exp=1792108800~hmac=c80b7d952e2c66de9b21929898d86d6ac2ce9c464f3216d6f243a3442a9606f3",
+    "vo-9.mp3": "https://pikaso.cdnpk.net/private/production/5697327351/audio.mp3?token=exp=1792108800~hmac=57901afc2c3d00df3bdbcb73add3b69fe7c646b8002c44870c265d0a74b2d0d5",
+    "music.mp3": "https://pikaso.cdnpk.net/private/production/5697327665/a2f40f02-45f2-4e8b-8994-d2dd17e6fa57.mp3?token=exp=1792108800~hmac=9aef213cfb1272d61fb65357372421ef3c34c23a8feb3820f3b6c88fde4aebd8"
+  }
+}

@@ -2,4 +2,3 @@ node_modules
 out
 .DS_Store
 public/audio/*/
-scripts/audio-urls.json
