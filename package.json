@@ -7,7 +7,8 @@
     "dev": "remotion studio",
     "render": "remotion render WorkshopReel out/estudia-inteligente-reel.mp4",
     "still": "remotion still WorkshopReel out/portada.png --frame=150 --props='{\"withAudio\":false}'",
-    "render:silent": "remotion render WorkshopReel out/estudia-inteligente-reel-sin-audio.mp4 --props='{\"withAudio\":false}'"
+    "render:silent": "remotion render WorkshopReel out/estudia-inteligente-reel-sin-audio.mp4 --props='{\"withAudio\":false}'",
+    "finalizar": "node scripts/finalizar.mjs"
   },
   "dependencies": {
     "@fontsource/anton": "^5.0.0",

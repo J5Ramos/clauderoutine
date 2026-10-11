@@ -7,6 +7,17 @@ Proyecto de [Remotion](https://www.remotion.dev/) con dos reels verticales (1080
 | `WorkshopReel` | Estudia inteligente, piensa por ti mismo | Nocturno (neón cian y ámbar) | `renders/estudia-inteligente-reel.mp4` |
 | `EducarReel` | Educar en la era de la Inteligencia Artificial | Papel (coral y verde, serif) | `renders/educar-ia-reel.mp4` |
 
+## Terminar los videos con voz y música
+
+Necesitas Node.js 18 o superior. En la carpeta del proyecto:
+
+```bash
+npm install
+npm run finalizar
+```
+
+El script descarga las voces en off y la música (definidas en `scripts/audio-urls.json`) a `public/audio/` y renderiza `renders/estudia-inteligente-reel-final.mp4` y `renders/educar-ia-reel-final.mp4`. Si un enlace de descarga venció, baja ese audio desde Magnific y guárdalo con el mismo nombre en `public/audio/<reel>/`; el script no vuelve a descargar lo que ya existe.
+
 Los temas están en `src/theme.ts`; el armado común de cada reel (escenas, audio, progreso) en `src/Reel.tsx`.
 
 ---
