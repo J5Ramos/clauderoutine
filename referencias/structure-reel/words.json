@@ -1,0 +1,194 @@
+{
+ "source": "whisper.cpp ggml-base.en",
+ "fps": 30,
+ "durationMs": 18689,
+ "width": 720,
+ "height": 1280,
+ "words": [
+  {
+   "text": "your",
+   "startMs": 0,
+   "endMs": 360
+  },
+  {
+   "text": "content",
+   "startMs": 360,
+   "endMs": 990
+  },
+  {
+   "text": "is",
+   "startMs": 990,
+   "endMs": 1170
+  },
+  {
+   "text": "invisible",
+   "startMs": 1170,
+   "endMs": 2000
+  },
+  {
+   "text": "and",
+   "startMs": 2000,
+   "endMs": 2230
+  },
+  {
+   "text": "it's",
+   "startMs": 2230,
+   "endMs": 2530
+  },
+  {
+   "text": "not",
+   "startMs": 2530,
+   "endMs": 2760
+  },
+  {
+   "text": "an",
+   "startMs": 2760,
+   "endMs": 2910
+  },
+  {
+   "text": "editing",
+   "startMs": 2910,
+   "endMs": 3440
+  },
+  {
+   "text": "problem",
+   "startMs": 3440,
+   "endMs": 4000
+  },
+  {
+   "text": "it's",
+   "startMs": 4000,
+   "endMs": 4630
+  },
+  {
+   "text": "a",
+   "startMs": 4630,
+   "endMs": 4800
+  },
+  {
+   "text": "structure",
+   "startMs": 4800,
+   "endMs": 5360
+  },
+  {
+   "text": "problem",
+   "startMs": 5360,
+   "endMs": 5680
+  },
+  {
+   "text": "if",
+   "startMs": 6400,
+   "endMs": 6400
+  },
+  {
+   "text": "your",
+   "startMs": 6400,
+   "endMs": 6500
+  },
+  {
+   "text": "script",
+   "startMs": 6500,
+   "endMs": 7320
+  },
+  {
+   "text": "is",
+   "startMs": 7320,
+   "endMs": 7590
+  },
+  {
+   "text": "weak",
+   "startMs": 7590,
+   "endMs": 8160
+  },
+  {
+   "text": "motion",
+   "startMs": 8160,
+   "endMs": 8680
+  },
+  {
+   "text": "design",
+   "startMs": 8680,
+   "endMs": 9200
+  },
+  {
+   "text": "is",
+   "startMs": 9200,
+   "endMs": 9370
+  },
+  {
+   "text": "useless",
+   "startMs": 9370,
+   "endMs": 9990
+  },
+  {
+   "text": "over",
+   "startMs": 9990,
+   "endMs": 10290
+  },
+  {
+   "text": "editing",
+   "startMs": 10290,
+   "endMs": 10800
+  },
+  {
+   "text": "hides",
+   "startMs": 10800,
+   "endMs": 11160
+  },
+  {
+   "text": "the",
+   "startMs": 11160,
+   "endMs": 11380
+  },
+  {
+   "text": "problem",
+   "startMs": 11380,
+   "endMs": 11920
+  },
+  {
+   "text": "structure",
+   "startMs": 12800,
+   "endMs": 12960
+  },
+  {
+   "text": "solves",
+   "startMs": 12960,
+   "endMs": 13650
+  },
+  {
+   "text": "it",
+   "startMs": 13650,
+   "endMs": 13880
+  },
+  {
+   "text": "want",
+   "startMs": 13880,
+   "endMs": 14330
+  },
+  {
+   "text": "my",
+   "startMs": 14330,
+   "endMs": 14570
+  },
+  {
+   "text": "script",
+   "startMs": 14570,
+   "endMs": 15260
+  },
+  {
+   "text": "framework",
+   "startMs": 15260,
+   "endMs": 16310
+  },
+  {
+   "text": "comment",
+   "startMs": 16310,
+   "endMs": 17190
+  },
+  {
+   "text": "structure",
+   "startMs": 17190,
+   "endMs": 18320
+  }
+ ]
+}
